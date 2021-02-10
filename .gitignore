@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+*.pyc
+venv*
+results/*
+!results/.gitkeep
+*.pickle
