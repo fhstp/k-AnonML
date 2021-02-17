@@ -77,3 +77,5 @@ The repository contains following locations for data:
   - contains our defined generalization hierarchies per attribute and dataset
 - `results`
   - all computed results (anonymised datasets, ML performance, etc.) are stored inside a folder structure inside `results` for each experiment
+- `paper_results`
+  - contains the results we used for analyses and plots in our [paper]((https://arxiv.org/abs/2102.04763))
