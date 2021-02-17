@@ -1,6 +1,6 @@
 # _k_-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers
 
-This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on machine learning classifiers as presented in [_k_-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers](https://arxiv.org/abs/2102.04763).
+This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on Machine Learning (ML) classifiers as presented in [_k_-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers](https://arxiv.org/abs/2102.04763).
 
 ```bibtex
 @misc{slijepčević2021kanonymity,
@@ -32,7 +32,7 @@ The code is written in Python 3 and conducts following steps for each experiment
 - measure specified ML algorithm performance using anonymised dataset
 - repeat previous steps for other configured values of _k_
 
-The different parameters (dataset, ML algorithm, _k_-anonymisation algorithm, _k_) are defined via arguments as follows:
+The parameters, i.e., dataset, ML algorithm, _k_-anonymisation algorithm, and _k_ are defined via arguments as follows:
 
 ```txt
 usage: baseline_with_repetitions.py [-h] [--start-k START_K] [--stop-k STOP_K] [--step-k STEP_K] [--debug] [--verbose] [{cmc,mgm,adult,cahousing}] [{rf,knn,svm,xgb}] {mondrian,ola,tdg,cb} ...
@@ -66,7 +66,7 @@ The original reporitories can be found on github.com:
 - [Basic Mondrian](https://github.com/qiyuangong/Basic_Mondrian)
 - [Top Down Greedy Anonymization](https://github.com/qiyuangong/Top_Down_Greedy_Anonymization)
 
-Our changes included the migration of Python 2 to Python 3, the option to leave non-QID attributes and the target variable non-anonymised, the ability to handle float numbers in datasets, removal and cleanup of files and code that were irrelevant to our project.
+Our changes include the migration of Python 2 to Python 3, the option to leave non-QID attributes and the target variable non-anonymised, the ability to handle float numbers in datasets, removal and cleanup of files and code that were irrelevant to our project.
 
 ## Data
 The repository contains following locations for data:
