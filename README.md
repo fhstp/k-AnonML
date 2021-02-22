@@ -79,3 +79,5 @@ The repository contains following locations for data:
   - all computed results (anonymised datasets, ML performance, etc.) are stored inside a folder structure inside `results` for each experiment
 - `paper_results`
   - contains the results we used for analyses and plots in our [paper]((https://arxiv.org/abs/2102.04763))
+- `figures`
+  - contains the figures used in our [paper]((https://arxiv.org/abs/2102.04763))
