@@ -3,18 +3,14 @@
 This repository contains the Python code for applying different _k_-anonymisation algorithms, i.e., Optimal Lattice Anonymization (OLA), Mondrian, Top-Down Greedy Anonymisation (TDG), k-NN Clustering-Based (CB) Anonymisation,  on datasets and measuring their effects on Machine Learning (ML) classifiers as presented in [_k_-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers](https://arxiv.org/abs/2102.04763).
 
 ```bibtex
-@misc{slijepčević2021kanonymity,
-    title        = {$k$-Anonymity in Practice: How Generalisation and Suppression Affect Machine Learning Classifiers},
-    author       = {Djordje Slijepčević and
-                    Maximilian Henzl and
-                    Lukas Daniel Klausner and
-                    Tobias Dam and
-                    Peter Kieseberg and
-                    Matthias Zeppelzauer},
-    year         = 2021,
-    eprint       = {2102.04763},
-    archiveprefix = {arXiv},
-    primaryclass = {cs.LG}
+@article{slijepvcevic2021k,
+  title={k-Anonymity in practice: How generalisation and suppression affect machine learning classifiers},
+  author={Slijep{\v{c}}evi{\'c}, Djordje and Henzl, Maximilian and Klausner, Lukas Daniel and Dam, Tobias and Kieseberg, Peter and Zeppelzauer, Matthias},
+  journal={Computers \& Security},
+  volume={111},
+  pages={102488},
+  year={2021},
+  publisher={Elsevier}
 }
 ```
 
